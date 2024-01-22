@@ -1,0 +1,23 @@
+.Sidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 97px;
+  height: 930px;
+  flex-shrink: 0;
+  background: #5b5ce2;
+  box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.05);
+  padding: 30px 0;
+  gap: 38px;
+
+  .SideBarIcon {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+    .Icon {
+      color: #e9e9ff;
+    }
+  }
+}
